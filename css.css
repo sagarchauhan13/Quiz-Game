@@ -1,0 +1,52 @@
+      .button{
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            margin: 4px 2px;
+            -webkit-transition-duration: 0.4s;
+            transition-duration: 0.2s;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+         .button2 {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #008CBA;
+        }
+
+        .button2:hover {
+            background-color: #008CBA;
+            color: white;
+        }
+        
+        .warning1{
+            color: red;
+        }
+        
+        .warning2{
+            color: green;
+        }
+        
+        .button1 {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #4CAF50;
+        }
+
+        .button1:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+        
+        input[type="radio"]:checked+lable{
+            font-family: verdana;
+            font-weight: bold;
+        }
+        .nextbutton{
+           display: none;
+        }
